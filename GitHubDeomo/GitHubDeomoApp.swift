@@ -12,6 +12,7 @@ struct GitHubDeomoApp: App {
     var body: some Scene {
         WindowGroup {
             NewMainView()
+                .background(.red)
         }
     }
 }
