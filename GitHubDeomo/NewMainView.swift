@@ -17,7 +17,7 @@ struct NewMainView: View {
             Text("Hello, Git(Hub)")
         }
         .padding()
-        .background(.green)
+        .background(.blue)
     }
 }
 
