@@ -15,5 +15,6 @@ struct SecondView: View {
         Button("Dismiss"){
             dismiss.toggle()
         }
+        //Some change, just a comment
     }
 }
