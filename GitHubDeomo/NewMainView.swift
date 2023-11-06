@@ -19,7 +19,7 @@ struct NewMainView: View {
             Button("Text"){
                 bool.toggle()
             }.sheet(isPresented: $bool, content: {
-                SecondView()
+                SecondView(dismiss: $bool)
             })
         }
         .padding()
